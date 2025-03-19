@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
-      - 'feature/*'
+      - none
     
 jobs:
     first_job:
